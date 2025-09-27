@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Audition for SMS Alice in Wonderland Musical Form</title>
+        <link rel="stylesheet" href="talentshow.css">
+    </head>
+    <body>
+        <form>
+            <h2>Sommington Middle School Audition Form</h2>
+            <p>Fill out the form below to register your audition</p>
+            <!-- hidden id input field won't be visible but it would store form id value useful for tracking submission -->
+             <input type="hidden" name="formid" value="cb2025">
+             <!-- fieldset group related inputs together in a box for better organization-->
+              <fieldset>
+                <!-- adding title/label for fieldset -->
+                <legend class="legend">👤Student Info</legend>
+                <label for="name">Full Name:</label>
+                <input type="name" name="name" class="name" required>
+                <br><br>
+                <label for="email">Enter Email:</label>
+                <input type="email" name="email" class="email" required>
+                <br><br>
+                <label for="id">Enter Student ID:</label>
+                <input type="number" name="id" class="id" required>
+              </fieldset>
+              <fieldset>
+                <legend>🎭Audition Info</legend>
+                <label for="char">Character You Would Like to Audition for:</label>
+                <br>
+                <input type="radio" name="char" class="char" value="Alice" checked> Alice
+                <input type="radio" name="char" class="char" value="WhiteRabbit" checked> White Rabbit
+                <input type="radio" name="char" class="char" value="CheshireCat" checked> Cheshire Cat
+                <input type="radio" name="char" class="char" value="QueenOfHearts" checked> Queen of Hearts
+                <input type="radio" name="char" class="char" value="MadHatter" checked> Mad Hatter
+                <input type="radio" name="char" class="char" value="TweedleDeeorTweedleDum" checked>Tweedle Dee or Tweedle Dum
+                <input type="radio" name="char" class="char" value="CardSoldiers" checked> Card Soldiers
+                <input type="radio" name="char" class="char" value="Catterpillar" checked> The Catterpiller
+                <input type="radio" name="char" class="char" value="TheFlowersofWonderland" checked> The Flowers of Wonderland
+                <br><br>
+                <label for="auditionsong">Choose Audition Song</label>
+                <br>
+                <input type="radio" name="song" value="InaWorldofMyOwn"> In a World of My Own
+                <input type="radio" name="song" value="I'mLate"> I'm Late
+                <input type="radio" name="song" value="AlliintheGoldenAfternoon">All in the Golden Afternoon
+                <input type="radio" name="song" value="VerGoodAdvice"> Very Good Advice
+                <br><br>
+                <label for="date">Day for Audition:</label>
+                <input type="date" name="date">
+                </fieldset>
+                <fieldset>
+                <legend>Online Audition</legend>
+                <label for="vid">Upload a Video of you Singing:</label>
+                <input type="url" name="url" class="url">
+                <br><br>
+                <label for="message">Reason for Audition:</label>
+                <input type="messagebox" name="message" class="message" placeholder="Type Here...">
+                </fieldset>
+                <div class="button">
+                    <button type="submit">Submit Registration</button>
+                    <button type="reset">Reset</button>
+                </div>
+        </form>
+    </body>
+</html>

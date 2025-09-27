@@ -1,0 +1,57 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 250, 183);
+    padding:30px;
+    color:rgb(255, 137, 69)
+}
+form{
+    background: rgb(255, 222, 172);
+    padding:25px;
+    border-radius:15px;
+    max-width: 600px;
+    margin:auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+h2{
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+p{
+    text-align:center;
+    font-style:italic;
+}
+fieldset{
+    border:2px solid rgb(255, 66, 66);
+    padding:20px;
+    margin-bottom:30px;
+    border-radius:10px;
+    background:rgba(245, 245, 245, 0.452)
+}
+legend{
+    font-weight:bold;
+    text-transform:capitalize;
+    font-size:22px;
+    margin-top:10px;
+}
+label{
+    display:block;
+    margin-top:10px;
+    font-weight:500;
+}
+input,select,textarea{
+    width:100%;
+    padding:8px;
+    border-radius:5px;
+    margin-top:5px;
+    border:1px solid rgb(255, 66, 66);
+    font-size:1rem;
+}
+button{
+    width:100%;
+    padding:8px;
+    border-radius:5px;
+    margin-top:5px;
+    border:1px solid rgb(255, 66, 66);
+    color:rgb(255, 137, 69)
+}
